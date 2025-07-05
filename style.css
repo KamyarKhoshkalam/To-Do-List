@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+  position: relative;
+  height: 100vh;
+  background-color: orange;
+}
+
+.add-form {
+  position: absolute;
+  top: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.hide {
+  display: none;
+}
+
+.add-form input {
+  align-self: center;
+}
+
+.item-add {
+  align-self: flex-start;
+}

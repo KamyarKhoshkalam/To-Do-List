@@ -16,7 +16,11 @@ document.querySelector("body").addEventListener("click", (e) => {
   }
 });
 
-console.log(subButton.closest(".add-form"));
 subButton.addEventListener("click", (e) => {
   e.preventDefault();
+  const titleVal = document.querySelector("#title-add").value.trim();
+  if (!titleVal) {
+    alert("please enter some value");
+    return;
+  }
 });

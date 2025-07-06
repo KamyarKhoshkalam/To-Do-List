@@ -69,3 +69,18 @@ main {
   background-color: #0056b3;
   border-radius: 99px;
 }
+
+.items {
+  width: 100%;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.items .item {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh 15px;
+  background-color: #cfdef3;
+}

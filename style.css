@@ -39,6 +39,8 @@ main {
 
 .add-form.hide {
   opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
 
 .add-form input,
@@ -83,4 +85,9 @@ main {
   justify-content: space-between;
   padding: 3vh 15px;
   background-color: #cfdef3;
+}
+
+.done-task {
+  text-decoration: line-through;
+  opacity: 0.6;
 }
